@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="20dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#8605A3"
+        android:text="Các loại ngôn ngữ trên thế giới">
+    </EditText>
+
+    <ListView
+        android:id="@+id/listPhepTinh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
